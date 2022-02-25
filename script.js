@@ -41,6 +41,9 @@ function validateForm() {
   }
   if (!(sml && cpl && dgt && pnc) || (i<8)) {
     document.getElementById("ps").innerHTML = "Please fillup  this";
+    if (i<8) {
+      document.getElementById("ps").innerHTML = "Password must be 8 characters long";
+    }
     return false;
   }
   else {
