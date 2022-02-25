@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    color: #444;
+    padding: 10px;
+    margin-left: 25px;
+}
+form span {
+    color: #444;
+    margin-left: 15px;
+}
+.box {
+    width: 95%;
+    height: auto;
+    margin: auto;
+}
+ul {
+    border-radius: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222  ;
+}
+li {
+}
+li a {
+	display: block;
+	color: #ddd;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #111;
+}
+.layer-1 {
+    border-radius: 10px;
+    height: 300px;
+    width: 15%;
+    float: left;
+}
+.layer-2 {
+    border-radius: 10px;
+    height: 500px;
+    width: 60%;
+    padding: 30px;
+    padding-top: 0px;
+    float: left;
+}
+.layer-3 {
+    border-radius: 10px;
+    height: 500px;
+    width: 25%;
+    float: left;
+}
+.form-box {
+    border-radius: 10px;
+    background-color: #ddd;
+    height: 440px;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #cfcfcf;
+}
+.current-page {
+	font-weight: bolder;
+	color: #222;
+	background-color: #777;
+}
+.current-page:hover {
+	background-color: #777;
+}
+body {
+    background-color: #eee;
+    font-family: oxanium;
+}
+input {
+    font-family: oxanium;
+    background-color: #eee;
+    border: 1px solid grey;
+    border-radius: 3px;
+    height: 34px;
+    width: 80%;
+    padding: 10px;
+    margin: 3px;
+    margin-left: 15px;
+    font-size: 18px;
+}
+.submit {
+    text-align: center;
+    width: 30%;
+    padding: 0px;
+    color: #444;
+    font-weight: bold;
+}
+.check {
+    height: 15px;
+    float: left;
+    width: 15px;
+    margin: 5px;
+    margin-left: 15px;
+}

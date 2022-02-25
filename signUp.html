@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Layouts</title>
+        <link rel="stylesheet" href="styles.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oxanium">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <h1>Hello World</h1>
+        </header>
+        <div class="box">
+            <div class="layer-1">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a class="current-page" href="#">Join Us</a></li>
+                </ul>
+            </div>
+            <div class="layer-2">
+                <div class="form-box" >
+                    <h3 style="color: #444; text-align: center; padding-bottom: 10px; padding-top: 5px">Please sign up to stay connected</h3>
+                    <form name="sign-up" action="/action_page.php" onsubmit="return validateForm()" method="post">
+                        <input type="text" name="fName" placeholder="first name" /> 
+                        <span id="fn" ></span>
+                        <input type="text" name="lName" placeholder="last name" />
+                        <span id="ln" ></span>
+                        <input type="email" name="eMail" placeholder="abc@xyz.com"/>
+                        <span id="em" ></span>
+                        <input type="password" name="pass" placeholder="password"/> 
+                        <span id="ps" ></span><br>
+                        <input class="submit" type="submit" value="Sign Up"/><br>
+                        <input class="check" type="checkbox" required />
+                        <h4 style="color: #444; margin: 2px; padding-top: 2px">I've read and agreed the <a href="#" target="_blank">terms and conditions</a>.</h4>
+                    </form>
+                    <br>
+                    <h3 style="color: #444; margin-left: 15px">Already have an account ? <br><a href="logIn.html"> Log in here</a></h3>                    
+                </div>
+            </div>
+            <div class="layer-3"></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
