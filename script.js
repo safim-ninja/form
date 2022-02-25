@@ -40,10 +40,10 @@ function validateForm() {
       
   }
   if (!(sml && cpl && dgt && pnc) || (i<8)) {
-    document.getElementById("ps").innerHTML = "Please fillup this" + i;
+    document.getElementById("ps").innerHTML = "Please fillup  this";
     return false;
   }
   else {
-      document.getElementById("ps").innerHTML = "" + i;
+      document.getElementById("ps").innerHTML = "";
   }
 }
